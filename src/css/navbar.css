@@ -1,0 +1,43 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 15vh;
+  background-color: black;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.l-d {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.d-f-a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-img {
+  width: 100px;
+  margin-left: 15px;
+  border-radius: 55px;
+}
+
+.w-name {
+  color: transparent;
+  margin-left: 20px;
+  font-size: 2.5rem;
+  -webkit-text-stroke: 2px rgb(243, 5, 5);
+}
+
+.search-box-container input {
+  width: 350px;
+  height: 50px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
